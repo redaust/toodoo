@@ -14,8 +14,7 @@
 <div class="mt-4 p-5 bg-primary text-white rounded">
 
   <div>
-    Add New List Item
-    <%= form.label :description, style: "display: block" %>
+    Add or Edit List Item
     <%= form.text_field :description %>
   </div>
 
@@ -25,7 +24,7 @@
   </div>
 
   <div>
-    <%= form.submit "Create/Edit To-Do Item" %>
+    <%= form.submit "Create/Edit To-Do Item", class: 'btn btn-dark' %>
   </div>
 
 </div>
