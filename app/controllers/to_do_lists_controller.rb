@@ -3,6 +3,7 @@ class ToDoListsController < ApplicationController
 
   # GET /to_do_lists or /to_do_lists.json
   def index
+    @to_do_list = ToDoList.new
     @to_do_lists = ToDoList.all
   end
 
