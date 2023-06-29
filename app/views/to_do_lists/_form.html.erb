@@ -11,6 +11,8 @@
     </div>
   <% end %>
 
+<div class="mt-4 p-5 bg-primary text-white rounded">
+
   <div>
     <%= form.label :description, style: "display: block" %>
     <%= form.text_field :description %>
@@ -22,6 +24,8 @@
   </div>
 
   <div>
-    <%= form.submit %>
+    <%= form.submit "Create To-Do Item" %>
   </div>
+
+</div>
 <% end %>
